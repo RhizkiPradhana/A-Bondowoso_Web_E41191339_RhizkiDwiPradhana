@@ -7,10 +7,10 @@
     <title>{{ config('app.name')}}</title>
 </head>
 <body>
-<div class="jumbotron jumbotron-fluid">
-    <div class="contaigner">
-    <h1 class="display-4">Halaman Home</h1>
-    <p class="lead">Halaman Ini Merupakan Halaman Home</p>
+    <div class="jumbotron jumbotron-fluid">
+         <div class="contaigner">
+         @yield('content')
+        </div>
     </div>
 </body>
 </html>
